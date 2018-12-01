@@ -565,6 +565,12 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# RCS
+PRODUCT_PACKAGES += \
+    com.android.ims.rcsmanager \
+    PresencePolling \
+    RcsService
+
 # Refresh Rate Settings
 $(call inherit-product, $(LOCAL_PATH)/configs/refreshrate/refreshrate.mk)
 
