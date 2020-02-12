@@ -1,3 +1,13 @@
 allow kernel mnt_vendor_file:dir { search };
 allow kernel system_data_file:file { read };
 allow kernel self:capability kill;
+
+# For diag over socket
+userdebug_or_eng(`
+  allow kernel self:qipcrtr_socket create;
+')
+# Ignore the socket if it fails to create
+dontaudit kernel self:qipcrtr_socket create;
+
+# Allow kernel to access /data/per_boot
+allow kernel per_boot_file:file r_file_perms;
