@@ -70,6 +70,13 @@ vendor/lib/libssrec.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
 
+# Audio Libraries
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
+vendor/lib64/soundfx/libqcbassboost.so
+vendor/lib64/soundfx/libqcvirt.so
+
 # Audio (Firmware)
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
 vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin
