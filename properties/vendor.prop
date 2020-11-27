@@ -299,6 +299,7 @@ debug.sf.disable_client_composition_cache=1
 debug.sf.layer_caching_active_layer_timeout_ms=1000
 ro.config.avoid_gfx_accel=true
 debug.sdm.support_writeback=0
+ro.hwui.render_ahead=10
 
 # IMS
 persist.vendor.ims.disableADBLogs=1
