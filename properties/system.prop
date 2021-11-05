@@ -24,7 +24,7 @@ debug.cpurend.vsync=false
 # Display
 debug.force_no_blanking=true
 debug.gralloc.gfx_ubwc_disable=0
-debug.sf.enable_hwc_vds=1
+debug.sf.enable_hwc_vds=0
 debug.sf.latch_unsignaled=1
 persist.vendor.color.matrix=2
 qemu.sf.lcd_density=420 
