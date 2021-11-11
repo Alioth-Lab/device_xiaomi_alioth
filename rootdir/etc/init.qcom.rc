@@ -121,7 +121,7 @@ on early-boot
     write /sys/bus/msm_subsys/devices/subsys6/restart_level RELATED
     write /sys/bus/msm_subsys/devices/subsys7/restart_level RELATED
 
-    setprop init.svc.console stopped
+    stop console
 
 on boot
     chown bluetooth bluetooth /sys/module/bluetooth_power/parameters/power
