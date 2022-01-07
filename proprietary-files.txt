@@ -93,7 +93,6 @@ vendor/firmware/spk2_voice_delta.txt
 # Audio-Hardware
 vendor/lib/hw/audio.primary.kona.so
 vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
 vendor/lib/libaudio_log_utils.so
 vendor/lib/libaudioroute_ext.so
 vendor/lib/libfcsam.so
