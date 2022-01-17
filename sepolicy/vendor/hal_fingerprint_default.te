@@ -40,3 +40,8 @@ allow hal_fingerprint_default vendor_sysfs_spss:file { open read };
 add_hwservice(hal_fingerprint_default, hal_fingerprint_hwservice_xiaomi)
 
 binder_call(hal_fingerprint_default, vendor_hal_perf_default)
+
+hal_client_domain(hal_fingerprint_default, hal_touchfeature)
+
+# Allow binder communication with hal_touchfeature_default
+binder_call(hal_fingerprint_default, hal_touchfeature_default)
