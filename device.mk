@@ -16,14 +16,7 @@ $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-kraken
-
-# Pocket Mode
-PRODUCT_PACKAGES += \
-    PocketMode
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/pocket/privapp-permissions-pocketmode.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-pocketmode.xml
+    $(LOCAL_PATH)/overlay-pixel
 
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal

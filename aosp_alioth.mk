@@ -14,6 +14,15 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from alioth device
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
+# Boot resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Broken rules
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
+# Quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 PRODUCT_NAME := aosp_alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
@@ -21,10 +30,6 @@ PRODUCT_BRAND := POCO
 PRODUCT_MODEL := POCO F3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-
-PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
-
-TARGET_SUPPORTS_QUICK_TAP := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="raven-user 12 SQ1D.220205.003 8069835 release-keys"
