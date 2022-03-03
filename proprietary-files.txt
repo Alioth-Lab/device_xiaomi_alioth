@@ -136,6 +136,8 @@ vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 
 # Bluetooth (FM) - from MIUI 13 SKQ1.220303.001 22.5.1
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
+vendor/lib/vendor.qti.hardware.fm@1.0.so
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Bluetooth (aptX) - from MIUI 13 SKQ1.220303.001 22.5.1
 system_ext/bin/aptxalsOverlayCreateProject.sh
