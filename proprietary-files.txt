@@ -1333,14 +1333,14 @@ vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
 
-# Soter
+# Soter - from V13.0.3.0.SKHEUXM
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Soter service (Tencent) - from lmi
--vendor/app/SoterService/SoterService.apk|939423f0016034cf8676f64d384aafde308f779b
+# Soter service (Tencent) - from V13.0.3.0.SKHEUXM
+-vendor/app/SoterService/SoterService.apk|4e1217350746b3d0b24c0ae2b10a5a717297554e
 
 # Thermal
 vendor/bin/mi_thermald
