@@ -977,6 +977,20 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
+# Media (Miui Prebuilts)
+vendor/bin/init.qti.media.sh|3a6e9e099ce2096fea4d34f53a199fceb38d458b
+vendor/etc/init/init.qti.media.rc|a960420c2cea7e7b9e360f64daa4f19765afc490
+vendor/lib/libstreamparser.so|935aabbbde4806bad2e09453c73004238d69db6f
+vendor/lib/libvideooptfeature.so|5fb8589deda269bd36c18f04ce84b3f317b5fd96
+vendor/lib/libvideoutils.so|8386c94816eb456f8eb78c2203da3aedd35226d1
+vendor/lib64/libqcodec2_base.so|ad21dcc49bc75fdbb713e5e26eaaa1dbc46998fe
+vendor/lib64/libqcodec2_basecodec.so|17077854df5fdbe12a34749c59a75a4e16277e20
+vendor/lib64/libqcodec2_core.so|728605241c604ab164fb24640d15adcdf0697196
+vendor/lib64/libqcodec2_platform.so|02fe8f655030343a67ecb2d6ba67809736aa65f0
+vendor/lib64/libqcodec2_utils.so|c009dbd755f5f850852939bd8f3f3d5de50570ea
+vendor/lib64/libqcodec2_v4l2codec.so|12f757483ad82e4b70d3ff51c770177d24930ded
+vendor/lib64/libvideooptfeature.so|2f302583ff4ab892b04a649d1b3080019b588d49
+
 # Media - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
 system_ext/lib/libmmosal.so|ff554643ca1ac5c69f58e23b0e4769ce2653e27f
 system_ext/lib/libmmparser_lite.so|da793151a7092dcc7d0246cb25908587a4babfe2
