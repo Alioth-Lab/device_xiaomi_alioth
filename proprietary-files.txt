@@ -977,16 +977,16 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
-# Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
+# Media - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
+system_ext/lib/libmmosal.so|ff554643ca1ac5c69f58e23b0e4769ce2653e27f
+system_ext/lib/libmmparser_lite.so|da793151a7092dcc7d0246cb25908587a4babfe2
+system_ext/lib64/libmmosal.so|b7caf42e3a18284615159dbee78cc1353bb57c58
+system_ext/lib64/libmmparser_lite.so|ae4e3e72f08a13786bc48301f262f60c1d5be70e
+vendor/lib/libmmosal.so|b5fc0fae23c5f17cdf444cf72986c45187b2f6aa
+vendor/lib64/libmmosal.so|1ac3149c52dfde413265720d47eae56b31f70a8b
 
-# Media configs
-vendor/etc/system_properties.xml
+# Media configs - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
+vendor/etc/system_properties.xml|1fef83105060b01a95a790f1504e58adb1df44f1
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
