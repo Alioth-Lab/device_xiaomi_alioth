@@ -229,8 +229,10 @@ vendor.gralloc.disable_ubwc=0
 ro.hardware.keystore_desede=true
 
 # Media
+debug.media.codec2=2
+debug.stagefright.c2inputsurface=-1
 debug.stagefright.ccodec=1
-debug.stagefright.omx_default_rank=0
+debug.stagefright.omx_default_rank=512
 drm.service.enabled=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 media.stagefright.enable-aac=true
