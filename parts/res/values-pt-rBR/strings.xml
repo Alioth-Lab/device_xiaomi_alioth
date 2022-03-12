@@ -13,11 +13,11 @@
 -->
 <resources>
 
-     <!-- Refresh Rate -->
+     <!-- Per-app refresh rate -->
      <string name="refresh_title">Taxa de atualização por aplicativo</string>
      <string name="refresh_summary">Defina a taxa de atualização máxima para um aplicativo em específico</string>
      <string name="refresh_default">Padrão</string>
-     <string name="refresh_standard">Média (60Hz)</string>
-     <string name="refresh_extreme">Extrema (120Hz)</string>
+     <string name="refresh_standard">60Hz</string>
+     <string name="refresh_extreme">120Hz</string>
 
 </resources>
