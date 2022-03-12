@@ -268,6 +268,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.1.vendor
 
+# Keyboard height ratio and bottom padding in dp for portrait mode
+PRODUCT_PRODUCT_PROPERTIES += \
+    ro.com.google.ime.height_ratio=1.0 \
+    ro.com.google.ime.kb_pad_port_b=1
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.lights-service.xiaomi_kona
