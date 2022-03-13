@@ -105,12 +105,12 @@ PRODUCT_PACKAGES += \
     libgui_vendor \
     vendor.qti.hardware.camera.postproc@1.0.vendor \
     vendor.qti.hardware.camera.device@1.0.vendor
+    
+# Inherit Gcam BSG
+$(call inherit-product, vendor/GcamBSG/GcamBSG-vendor.mk)    
 
 PRODUCT_PACKAGES += \
     libstdc++.vendor
-
-PRODUCT_PACKAGES += \
-    GCamGoPrebuilt
 
 # Configstore
 PRODUCT_PACKAGES += \
