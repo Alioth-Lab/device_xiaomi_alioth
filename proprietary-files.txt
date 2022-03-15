@@ -1,4 +1,4 @@
-# Unpinned blobs from alioth_global-user 11 RKQ1.200826.002 V12.5.4.0.RKHMIXM release-keys
+# Device proprietary files - from alioth MIUI V13.0.3.0.SKHCNXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -731,41 +731,6 @@ vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|de1e8d026b16255040dbe6
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|380693cb560e5aadf0e936dc97659e0642f75954
 
-# Graphics (Adreno) - from LA.UM.9.12.r1-10800-SMxx50.0
--vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED|6e85bf1b79c77e90c41863283655d3543d003a63
-vendor/lib/egl/eglSubDriverAndroid.so|f9ff4c8ec968243ca20287ff5476d7b23b7f24c5
-vendor/lib/egl/libEGL_adreno.so|cc8594371f6896dc425acbffd49d59f8040f612f
-vendor/lib/egl/libGLESv1_CM_adreno.so|b94ba8188a14dd262abac1b8d667bce3319cf344
-vendor/lib/egl/libGLESv2_adreno.so|9e6314bd990369bdd67b440787fccb2e7a7f527d
-vendor/lib/egl/libq3dtools_adreno.so|fa4ad58fe986911110d70eb5e2705e0d5bc8a7dc
-vendor/lib/egl/libq3dtools_esx.so|4c4eea6247c01d33881c4821d3a9bcb6aa74d299
-vendor/lib/libC2D2.so|267be7bd6768fa3b9bed2b9a42062cb5a77ca59b
-vendor/lib/libCB.so|a0c093baa2ccb10c09423baeba8b672f69a93754
-vendor/lib/libOpenCL.so|bb865516102b028121dfd92b0015099b7aaf5bf4
-vendor/lib/libVkLayer_q3dtools.so|5e95be3b18e6dcd47612c33d48cef38d940d04a2
-vendor/lib/libadreno_utils.so|f3b7184f573e60245d6526c61e772d59624d7545
-vendor/lib/libc2d30_bltlib.so|ae78e7eb6ea896a25a09a5c4d4a48fb2eebf8d1f
-vendor/lib/libgpudataproducer.so|5136b123f4725c7d67b16d4f6d0da19978a52764
-vendor/lib/libgsl.so|123e70ef7fa32673045c59a56c4a9716e01ef766
-vendor/lib/libllvm-glnext.so|10fcee8909c11b26e2475abd6bbe17329c730c43
-vendor/lib/libllvm-qcom.so|b3308e6a29a3bb78dbc0f6d68b2e972a6d134556
-vendor/lib64/egl/eglSubDriverAndroid.so|0ab79764a22565a6393359659782ec706685bd95
-vendor/lib64/egl/libEGL_adreno.so|2c40c72ce7cdeaa35140e953b7f301d111975199
-vendor/lib64/egl/libGLESv1_CM_adreno.so|e2e8a079e680bf92f686fb79146651c158f6e130
-vendor/lib64/egl/libGLESv2_adreno.so|5894751371689a5374675c8603d3e23bb75ebf21
-vendor/lib64/egl/libq3dtools_adreno.so|d8c8f25332d218a2dbd7cc5052e384b59d07c5a1
-vendor/lib64/egl/libq3dtools_esx.so|d22887d825df30894b6877936557d85bb764f61c
-vendor/lib64/libC2D2.so|6fb775e393ce7161b30e3a71fa0f320e86374425
-vendor/lib64/libCB.so|fa17112c18334d400644fd349c5627a11328cb8b
-vendor/lib64/libOpenCL.so|348f6e92ef78867f55388ae413e62d56f0a3a535
-vendor/lib64/libVkLayer_q3dtools.so|efccbd96b94107428972e018a8bfb18e731eb23a
-vendor/lib64/libadreno_utils.so|e830e31dc285368accb5472ce8a7294eb370d0c5
-vendor/lib64/libc2d30_bltlib.so|a922f93ab5acfd8abb0608773310e9c253bd2f7c
-vendor/lib64/libgpudataproducer.so|19cda99c2de0b4e689515b14b4eb1f079b8c184d
-vendor/lib64/libgsl.so|4d3cf2e016966e56af884dd435f1b21aad36ac92
-vendor/lib64/libllvm-glnext.so|29c1c155d5f4a0e598f22e44fb55083a54df756a
-vendor/lib64/libllvm-qcom.so|54f587cd2533fead20df3f67aff0378067add0d0
-
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
@@ -995,16 +960,16 @@ vendor/lib64/libqcodec2_utils.so|c009dbd755f5f850852939bd8f3f3d5de50570ea
 vendor/lib64/libqcodec2_v4l2codec.so|12f757483ad82e4b70d3ff51c770177d24930ded
 vendor/lib64/libvideooptfeature.so|2f302583ff4ab892b04a649d1b3080019b588d49
 
-# Media - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
-system_ext/lib/libmmosal.so|ff554643ca1ac5c69f58e23b0e4769ce2653e27f
-system_ext/lib/libmmparser_lite.so|da793151a7092dcc7d0246cb25908587a4babfe2
-system_ext/lib64/libmmosal.so|b7caf42e3a18284615159dbee78cc1353bb57c58
-system_ext/lib64/libmmparser_lite.so|ae4e3e72f08a13786bc48301f262f60c1d5be70e
-vendor/lib/libmmosal.so|b5fc0fae23c5f17cdf444cf72986c45187b2f6aa
-vendor/lib64/libmmosal.so|1ac3149c52dfde413265720d47eae56b31f70a8b
+# Media
+system_ext/lib/libmmosal.so
+system_ext/lib/libmmparser_lite.so
+system_ext/lib64/libmmosal.so
+system_ext/lib64/libmmparser_lite.so
+vendor/lib/libmmosal.so
+vendor/lib64/libmmosal.so
 
-# Media configs - from LA.UM.9.12.r1-13300-SMxx50.QSSI12.0
-vendor/etc/system_properties.xml|1fef83105060b01a95a790f1504e58adb1df44f1
+# Media configs
+vendor/etc/system_properties.xml
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
@@ -1351,14 +1316,14 @@ vendor/lib64/libscveObjectSegmentation_stub.so
 vendor/lib64/libscveObjectTracker.so
 vendor/lib64/libscveObjectTracker_stub.so
 
-# Soter - from V13.0.3.0.SKHEUXM
+# Soter
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.soter@1.0.so
 
-# Soter service (Tencent) - from V13.0.3.0.SKHEUXM
--vendor/app/SoterService/SoterService.apk|4e1217350746b3d0b24c0ae2b10a5a717297554e
+# Soter service (Tencent)
+-vendor/app/SoterService/SoterService.apk
 
 # Thermal
 vendor/bin/mi_thermald
