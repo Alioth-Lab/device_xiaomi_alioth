@@ -948,7 +948,7 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
-# Media (Miui Prebuilts)
+# Media (Miui Prebuilts) - from MIUI 13 SKQ1.220201.001 22.3.16
 vendor/bin/init.qti.media.sh|3a6e9e099ce2096fea4d34f53a199fceb38d458b
 vendor/etc/init/init.qti.media.rc|a960420c2cea7e7b9e360f64daa4f19765afc490
 vendor/lib/libstreamparser.so|935aabbbde4806bad2e09453c73004238d69db6f
@@ -962,16 +962,16 @@ vendor/lib64/libqcodec2_utils.so|c009dbd755f5f850852939bd8f3f3d5de50570ea
 vendor/lib64/libqcodec2_v4l2codec.so|12f757483ad82e4b70d3ff51c770177d24930ded
 vendor/lib64/libvideooptfeature.so|2f302583ff4ab892b04a649d1b3080019b588d49
 
-# Media
-system_ext/lib/libmmosal.so
-system_ext/lib/libmmparser_lite.so
-system_ext/lib64/libmmosal.so
-system_ext/lib64/libmmparser_lite.so
-vendor/lib/libmmosal.so
-vendor/lib64/libmmosal.so
+# Media - from MIUI 13 SKQ1.220201.001 22.3.16
+system_ext/lib/libmmosal.so|4b81152df596a9ad10938c286e879ec3846f6a27
+system_ext/lib/libmmparser_lite.so|271cf889b40eb9c37c65fd27712811de034bd535
+system_ext/lib64/libmmosal.so|2864420a9d3727c92a02e3423c9026b07b78481e
+system_ext/lib64/libmmparser_lite.so|1266cb5cd3090e867424dd73ed6696c30cc8ff4d
+vendor/lib/libmmosal.so|130b02ef9cc2e497a1dc78a143e199630049b2e1
+vendor/lib64/libmmosal.so|3736380ae324c63fbb3a3ce20b7969dfcdc60d61
 
-# Media configs
-vendor/etc/system_properties.xml
+# Media configs - from MIUI 13 SKQ1.220201.001 22.3.16
+vendor/etc/system_properties.xml|a59c1f30cbe0bd82fe82700b92a0ddd6ac0b8177
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
