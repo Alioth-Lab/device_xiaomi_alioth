@@ -126,7 +126,7 @@ TARGET_KERNEL_ARCH := arm64
 KERNEL_LD := LD=ld.lld
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := r445002
-TARGET_KERNEL_CONFIG := alioth_defconfig
+TARGET_KERNEL_CONFIG := vendor/alioth_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/alioth
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := alioth
