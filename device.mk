@@ -580,6 +580,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     telephony-ext
 
+# Touchfeature
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.touchfeature@1.0.vendor
+
 # Trust
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
