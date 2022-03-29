@@ -2,4 +2,28 @@
 <resources>
     <!-- Integer indicating maximum hardware supported client number of soft ap -->
     <integer name="config_wifiHardwareSoftapMaxClientCount">32</integer>
+	
+    <!-- Integer thresholds, do not connect to APs with RSSI lower than these values  -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_5GHz">-77</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_entry_rssi_threshold_24GHz">-80</integer>
+
+    <!-- Integer thresholds for low network score, should be somewhat less than the entry thresholds -->
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_5GHz">-80</integer>
+    <integer translatable="false" name="config_wifi_framework_wifi_score_bad_rssi_threshold_24GHz">-83</integer>
+
+    <!-- Idle Receive current for wifi radio. 0 by default-->
+    <integer translatable="false" name="config_wifi_idle_receive_cur_ma">1</integer>
+
+    <!-- Rx current for wifi radio. 0 by default-->
+    <integer translatable="false" name="config_wifi_active_rx_cur_ma">100</integer>
+
+    <!-- Tx current for wifi radio. 0 by default-->
+    <integer translatable="false" name="config_wifi_tx_cur_ma">250</integer>
+
+    <!-- Operating volatage for wifi radio. 0 by default-->
+    <integer translatable="false" name="config_wifi_operating_voltage_mv">3800</integer>
+
+    <!-- Integer delay in milliseconds before set wlan interface up during watchdog recovery -->
+    <integer name="config_wifi_framework_recovery_timeout_delay">3000</integer>
+
 </resources>
