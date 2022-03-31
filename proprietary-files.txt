@@ -1,4 +1,4 @@
-# Device proprietary files - from alioth MIUI V13.0.3.0.SKHCNXM package, unless pinned
+# Device proprietary files - from alioth MIUI V13.0.2.0.SKHMIXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -11,95 +11,91 @@ vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
 vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
-# ADSP - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
-vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/lib/libadsprpc.so|e4f9fc5c781766de8163dde7b4b54305293defda
-vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so|b2b10495c056cea36c988dab736b1119f2deaa41
-vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so|67c86a970304757fe10696d228fea439a75090f1
-vendor/lib/rfsa/adsp/libMIAIHDR_skel.so|610ce9500b62cfa158cf4a87dd73ebf4a039845f
-vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so|8f338b20fd8c92a601d74d273cdc3e1dfc32807a
-vendor/lib/rfsa/adsp/libSuperSensor_skel.so|4d796f47d7dda6aacbc6506e247e20962374cd66
-vendor/lib/rfsa/adsp/libapps_mem_heap.so|738014e904331e99749f36c8f6c0c43b8c246fe6
-vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so|0d46522555fa04a0097043121fdb1306f8f00537
-vendor/lib/rfsa/adsp/libbitml_nsp_skel.so|c56b5c9688d38cc240163d8c8e1144e9ba628fbd
-vendor/lib/rfsa/adsp/libcalculator_domains_skel.so|3f0281e62ef2b36b68c1349d0dc12c8e53b5ee3e
-vendor/lib/rfsa/adsp/libcalculator_skel.so|ae8602bfbf9a08d4b1375d2691c880ca8bded757
-vendor/lib/rfsa/adsp/libcamera_nn_skel.so|9be728826d031e23181aa3003b14f76519f1b22e
-vendor/lib/rfsa/adsp/libcvpdsp_skel.so|510791e46596949591fc283b5153fcf48c19c32c
-vendor/lib/rfsa/adsp/libdspCV_skel.so|88d2805c1e4af680dddc65f1ec6bccb339ef01dc
-vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
-vendor/lib/rfsa/adsp/libfastcvadsp.so|0fa5f74f8f1d26c4de0d8dcc6bc5fae25edc07df
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|149ec617a575c3fe084e0589b77b897b12c5fe9a
-vendor/lib/rfsa/adsp/libfrc_mobilenet.so|e36e4232f64e0c929fcc1b4940ff1ed4d3f28e9f
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|79188b620f3fc48421267990d6dd20d738d6ddd4
-vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so|70b13b462577b85a40e1a089d44a5c84830df1fe
-vendor/lib/rfsa/adsp/libmobilenet_dsp.so|d0e909fa841111bd7ee6ac539d5896962b4a7e87
-vendor/lib/rfsa/adsp/libremosaichvx_skel.so|ad260101653de29712e757707d72b93988a49586
-vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so|396429c72bae75fcdf40e623d19e83b2c1e4969a
-vendor/lib/rfsa/adsp/libscveT2T_skel.so|649d1645706edf6aa000cbbe64d9a7c6147e9b8d
-vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so|5dbe76365e5d732f58e7d04e315c8c771f803cd4
-vendor/lib/rfsa/adsp/libsnpe_dsp_skel.so|615cc166b91f0b605d689c4bdcc45a8283cf40cf
-vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so|13f18561630bfacc07d165ac4c58be9235c2af99
-vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so|be1c95bf8e1cccfcc9ef8c495e756d0f5f91f181
-vendor/lib/rfsa/adsp/libsns_device_mode_skel.so|733a5b8861bb6eb1285bb8982992531c94800997
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
-vendor/lib/rfsa/adsp/misound_karaoke_res.bin|3711d9e10313715626db3b02f1e2144d40f5e844
-vendor/lib/rfsa/adsp/misound_karaokemix_res.bin|3711d9e10313715626db3b02f1e2144d40f5e844
-vendor/lib/rfsa/adsp/misound_res.bin|58e0ece3c19ed43f3346510a9eb943cf0de7fe0a
-vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
-vendor/lib64/libadsprpc.so|763ff7c44adc6e75d2f0f06295216d2007382e25
+# ADSP
+vendor/bin/adsprpcd
+vendor/etc/init/vendor.qti.adsprpc-service.rc
+vendor/lib/libadsprpc.so
+vendor/lib/rfsa/adsp/capi_v2_cirrus_sp.so
+vendor/lib/rfsa/adsp/capi_v2_dap_cpdp.so
+vendor/lib/rfsa/adsp/libMIAIHDR_skel.so
+vendor/lib/rfsa/adsp/libQ6MSFR_manager_skel.so
+vendor/lib/rfsa/adsp/libSuperSensor_skel.so
+vendor/lib/rfsa/adsp/libapps_mem_heap.so
+vendor/lib/rfsa/adsp/libarcsoft_hdrplus_hvx_skel.so
+vendor/lib/rfsa/adsp/libbitml_nsp_skel.so
+vendor/lib/rfsa/adsp/libcalculator_domains_skel.so
+vendor/lib/rfsa/adsp/libcalculator_skel.so
+vendor/lib/rfsa/adsp/libcamera_nn_skel.so
+vendor/lib/rfsa/adsp/libcvpdsp_skel.so
+vendor/lib/rfsa/adsp/libdspCV_skel.so
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
+vendor/lib/rfsa/adsp/libfastcvadsp.so
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
+vendor/lib/rfsa/adsp/libfrc_mobilenet.so
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
+vendor/lib/rfsa/adsp/libmialgo_rfs_cdsp_skel.so
+vendor/lib/rfsa/adsp/libmobilenet_dsp.so
+vendor/lib/rfsa/adsp/libremosaichvx_skel.so
+vendor/lib/rfsa/adsp/libscveObjectSegmentation_skel.so
+vendor/lib/rfsa/adsp/libscveT2T_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_domains_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v65_domains_v2_skel.so
+vendor/lib/rfsa/adsp/libsnpe_dsp_v66_domains_v2_skel.so
+vendor/lib/rfsa/adsp/libsns_device_mode_skel.so
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
+vendor/lib/rfsa/adsp/misound_karaoke_res.bin
+vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
+vendor/lib/rfsa/adsp/misound_res.bin
+vendor/lib64/libadsp_default_listener.so
+vendor/lib64/libadsprpc.so
 
-# ADSP modules (aptX) - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so|1d83da21aeafa15ff327a59e761099910cfec563
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so|5e3d26890b77acce2bb4c82017c2bc2a5534c1d5
+# ADSP modules (aptX)
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDADV_Encoder.so
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Speech_Decoder.so
 
-# Audio - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/lib/libacdb-fts.so|c004ee5348c2098a2cc9ee9431e29dd4224a2f5f
-vendor/lib/libacdbloader.so|b0e18f5b43764fbe900233784105e7856b15e722
-vendor/lib/libacdbrtac.so|bd16054791ba75272957f62cd0b357df14bedc31
-vendor/lib/libadiertac.so|9b31665bd70f5f7f989e9f1e18978d77eecf6eae
-vendor/lib/libadm.so|1954acdfa454e83054bb7d7656b8f276287f8a22
-vendor/lib/libaudcal.so|a7fbab7de1f9eda1aeb6ad0fc8ff76388575e132
-vendor/lib/libqtigef.so|3fba1e7a22a0b75be6bace643aaa8ead110c1233
-vendor/lib/libssrec.so|7f376e892a54adc4a3eff2160b447620d5be9915
+# Audio
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libadm.so
+vendor/lib/libaudcal.so
+vendor/lib/libqtigef.so
+vendor/lib/libssrec.so
 
-# Audio-Hardware - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/lib/hw/audio.primary.kona.so|51fbf488fff7a165cde04fb0fb7a562cc948f876
-vendor/lib/libaudio_log_utils.so|da677ff82cbec353a2851a7556a2fa37992d6e2c
-vendor/lib/libaudioroute_ext.so|1647f54272c97657f1a0482ea1275836b09df18c
-vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|ed13a1c435bbc1320ceedeafab62db39fec2e34d
-vendor/lib/vndk/libxlog.so|dad5169deb3296ca1ff4d7e9546e4229cda277b9
-vendor/lib64/hw/audio.primary.kona.so|7e2e16856dae618e5f4ef68a56a5bf1378759f96
-vendor/lib64/libaudio_log_utils.so|abc1950f7eb2f73bf502d151557053d78d2f08b9
-vendor/lib64/libaudioroute_ext.so|e646e05cead20fa059c5f5068c88eebfce3f2bba
-vendor/lib64/libresampler.so|b38622335b7a883e06f4f48e0f8df33c179d034f
-vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so|83829ae61191b1a1afc16c04ab3d568f248da1db
+# Audio-Hardware
+vendor/lib/hw/audio.primary.kona.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libaudioroute_ext.so
+vendor/lib/libresampler.so
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/vndk/libxlog.so
+vendor/lib64/hw/audio.primary.kona.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudioroute_ext.so
+vendor/lib64/libresampler.so
+vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
 
-# Audio (Firmware) - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw|43bdf47fd6f68c219bcfc8d161bc83406831fb86
-vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin|3f91d211705f576da8a581f92ec682c0a20a32d5
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin|e8757652262cf48114bea09fc83380593696ca89
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw|574477bc96de8eab038e3ebfa8844f136bd59c8f
-vendor/firmware/cs35l41-dsp1-diag-z.bin|b4a4411720f3a9ae0d260834ed39f8b2bfeb52b1
-vendor/firmware/cs35l41-dsp1-diag-z.wmfw|fd74a1fdfa316ae814fdf569079626c9945cd056
-vendor/firmware/cs35l41-dsp1-diag.wmfw|74653b5ef80343a8dc84d33776490cffde64f4c5
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin|0ff4d5e02bb4417d6babb0a86a2d0d8c298b3fd4
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin|4894e3e4240c553f5b20cf11f307b1c87ae74d28
-vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin|d271d79fafc1c1566157e22a1bc1bc7f9e8ec42b
-vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw|574477bc96de8eab038e3ebfa8844f136bd59c8f
-vendor/firmware/cs35l41-dsp1-spk-prot.bin|0e1891ae92d240f5ef31f72f378068340b40d191
-vendor/firmware/cs35l41-dsp1-spk-prot.wmfw|b91438e3dff17db9e3b440d2769a7363139bc64a
-vendor/firmware/rcv_voice_delta.txt|9e28d490a62beaca76eea4d72d6614ebfc39321f
-vendor/firmware/spk1_playback_delta.txt|06c4fb902733fdaeafb6fe9e2616088eae829b1c
-vendor/firmware/spk1_voice_delta.txt|c58d2c1e95c5e505fea9fbae81f38327595bd54c
-vendor/firmware/spk2_playback_delta.txt|cd914ddaf5ce0fc01c894ebdaeec294a8d84b352
-vendor/firmware/spk2_voice_delta.txt|8da529b1f58e27d9b5a042228a4d4f574baffa14
-
-# Audio FX modules - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/lib/soundfx/libasphere.so|b2daeb875914a33575c7d7a67429f25d09d35489
-vendor/lib/soundfx/libshoebox.so|214d5fefd21c617bdfa05255fe667127b4242556
+# Audio (Firmware)
+vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
+vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin
+vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin
+vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw
+vendor/firmware/cs35l41-dsp1-diag-z.bin
+vendor/firmware/cs35l41-dsp1-diag-z.wmfw
+vendor/firmware/cs35l41-dsp1-diag.wmfw
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin
+vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin
+vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw
+vendor/firmware/cs35l41-dsp1-spk-prot.bin
+vendor/firmware/cs35l41-dsp1-spk-prot.wmfw
+vendor/firmware/rcv_voice_delta.txt
+vendor/firmware/spk1_playback_delta.txt
+vendor/firmware/spk1_voice_delta.txt
+vendor/firmware/spk2_playback_delta.txt
+vendor/firmware/spk2_voice_delta.txt
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -925,30 +921,30 @@ vendor/lib/liblistensoundmodel2.so
 vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
-# Media (Miui Prebuilts) - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/bin/init.qti.media.sh|3a6e9e099ce2096fea4d34f53a199fceb38d458b
-vendor/etc/init/init.qti.media.rc|a960420c2cea7e7b9e360f64daa4f19765afc490
-vendor/lib/libstreamparser.so|935aabbbde4806bad2e09453c73004238d69db6f
-vendor/lib/libvideooptfeature.so|5fb8589deda269bd36c18f04ce84b3f317b5fd96
-vendor/lib/libvideoutils.so|8386c94816eb456f8eb78c2203da3aedd35226d1
-vendor/lib64/libqcodec2_base.so|ad21dcc49bc75fdbb713e5e26eaaa1dbc46998fe
-vendor/lib64/libqcodec2_basecodec.so|17077854df5fdbe12a34749c59a75a4e16277e20
-vendor/lib64/libqcodec2_core.so|728605241c604ab164fb24640d15adcdf0697196
-vendor/lib64/libqcodec2_platform.so|02fe8f655030343a67ecb2d6ba67809736aa65f0
-vendor/lib64/libqcodec2_utils.so|c009dbd755f5f850852939bd8f3f3d5de50570ea
-vendor/lib64/libqcodec2_v4l2codec.so|12f757483ad82e4b70d3ff51c770177d24930ded
-vendor/lib64/libvideooptfeature.so|2f302583ff4ab892b04a649d1b3080019b588d49
+# Media (Miui Prebuilts)
+vendor/bin/init.qti.media.sh
+vendor/etc/init/init.qti.media.rc
+vendor/lib/libstreamparser.so
+vendor/lib/libvideooptfeature.so
+vendor/lib/libvideoutils.so
+vendor/lib64/libqcodec2_base.so
+vendor/lib64/libqcodec2_basecodec.so
+vendor/lib64/libqcodec2_core.so
+vendor/lib64/libqcodec2_platform.so
+vendor/lib64/libqcodec2_utils.so
+vendor/lib64/libqcodec2_v4l2codec.so
+vendor/lib64/libvideooptfeature.so
 
-# Media - from MIUI 13 SKQ1.220201.001 22.3.16
-system_ext/lib/libmmosal.so|4b81152df596a9ad10938c286e879ec3846f6a27
-system_ext/lib/libmmparser_lite.so|271cf889b40eb9c37c65fd27712811de034bd535
-system_ext/lib64/libmmosal.so|2864420a9d3727c92a02e3423c9026b07b78481e
-system_ext/lib64/libmmparser_lite.so|1266cb5cd3090e867424dd73ed6696c30cc8ff4d
-vendor/lib/libmmosal.so|130b02ef9cc2e497a1dc78a143e199630049b2e1
-vendor/lib64/libmmosal.so|3736380ae324c63fbb3a3ce20b7969dfcdc60d61
+# Media
+system_ext/lib/libmmosal.so
+system_ext/lib/libmmparser_lite.so
+system_ext/lib64/libmmosal.so
+system_ext/lib64/libmmparser_lite.so
+vendor/lib/libmmosal.so
+vendor/lib64/libmmosal.so
 
-# Media configs - from MIUI 13 SKQ1.220201.001 22.3.16
-vendor/etc/system_properties.xml|a59c1f30cbe0bd82fe82700b92a0ddd6ac0b8177
+# Media configs
+vendor/etc/system_properties.xml
 
 # Mink-Lowi Interface daemon
 vendor/bin/mlid
