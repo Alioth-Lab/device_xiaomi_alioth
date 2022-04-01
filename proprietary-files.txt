@@ -1261,6 +1261,9 @@ vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 vendor/lib64/sensors.touch.so
 
+# Service Tracker QTI
+vendor/lib64/hw/vendor.qti.hardware.servicetracker@1.2-impl.so
+
 # Snapdragon Computer Vision Engine - from LA.UM.9.12.r1-13700.03-SMxx50.QSSI12.0
 vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
 vendor/lib/libscveCommon_stub.so|89e1a3d3302b6809ae4ca1d80f6c2e0cd3c3b752
