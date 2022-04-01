@@ -21,7 +21,7 @@
     <dimen name="vertical_max_swift">1.0dp</dimen>
 
     <!-- for 20dp of padding at 2.75px/dp at default density -->
-    <dimen name="rounded_corner_content_padding">55px</dimen>
+    <dimen name="rounded_corner_content_padding">50px</dimen>
 
     <!-- the padding on the top of the statusbar (usually 0) -->
     <dimen name="status_bar_padding_top">1px</dimen>
@@ -31,8 +31,8 @@
     <dimen name="physical_volume_up_button_center_screen_location_y">750px</dimen>
 
     <!-- Power/fps button location -->
-    <dimen name="physical_power_button_center_screen_location_y">975px</dimen>
-    <dimen name="physical_fingerprint_sensor_center_screen_location_y">975px</dimen>
+    <dimen name="physical_power_button_center_screen_location_y">@dimen/physical_fingerprint_sensor_center_screen_location_y</dimen>
+    <dimen name="physical_fingerprint_sensor_center_screen_location_y">970px</dimen>
     <dimen name="physical_fingerprint_sensor_center_screen_location_x">1080px</dimen>
 
     <!-- the padding on the start of the statusbar -->
