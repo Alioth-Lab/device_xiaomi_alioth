@@ -395,10 +395,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
      $(LOCAL_PATH)/configs/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_PRODUCT)/etc/libnfc-nci.conf
 
-# Notch mask
-PRODUCT_PACKAGES += \
-    NotchBarKiller 
-
 # OMX
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
