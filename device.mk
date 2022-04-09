@@ -281,10 +281,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
     ro.com.google.ime.height_ratio=1.0 \
     ro.com.google.ime.kb_pad_port_b=1
 
-# Lights
-PRODUCT_PACKAGES += \
-    android.hardware.lights-service.xiaomi_kona
-
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
