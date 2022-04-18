@@ -1,0 +1,8 @@
+[
+{
+    "remote": "gitlab",
+    "repository": "Alioth-Project/vendor_GcamBSG",
+    "target_path": "vendor/GcamBSG",
+    "branch": "twelve"
+  }
+]
