@@ -13,7 +13,7 @@
 -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:minHeight="?android:attr/listPreferredItemHeight"
     android:paddingBottom="8dp"
     android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
@@ -24,7 +24,8 @@
         android:id="@+id/app_icon"
         android:layout_width="@android:dimen/app_icon_size"
         android:layout_height="@android:dimen/app_icon_size"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="12dp"
+        android:layout_gravity="center"
         android:contentDescription="@null"
         android:scaleType="centerInside" />
 
@@ -36,15 +37,14 @@
 
         <TextView
             android:id="@+id/app_name"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="8dp"
-            android:layout_marginTop="2dp"
             android:ellipsize="marquee"
             android:singleLine="true"
             android:textAlignment="viewStart"
-            android:textColor="?android:attr/textColorPrimary"
-            style="?android:attr/textAppearanceMedium" />
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            android:textColor="?android:attr/textColorPrimary" />
 
         <Spinner
             android:id="@+id/app_mode"
@@ -54,9 +54,20 @@
     </LinearLayout>
 
     <ImageView
+        android:id="@+id/touch"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_touch"
+        android:visibility="invisible" />
+
+    <ImageView
         android:id="@+id/state"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
+        android:padding="8dp"
         android:scaleType="centerInside"
         android:src="@drawable/ic_thermal_default" />
 </LinearLayout>

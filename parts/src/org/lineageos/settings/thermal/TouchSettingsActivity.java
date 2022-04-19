@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2022 The LineageOS Project
+ * Copyright (C) 2022 Paranoid Android
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package org.lineageos.settings.refreshrate;
+package org.lineageos.settings.thermal;
 
 import android.os.Bundle;
 import android.view.MenuItem;
@@ -22,15 +22,17 @@ import android.view.MenuItem;
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.android.settingslib.collapsingtoolbar.R;
 
-public class RefreshActivity extends CollapsingToolbarBaseActivity {
-    private static final String TAG_REFRESH = "refresh";
+public class TouchSettingsActivity extends CollapsingToolbarBaseActivity {
+
+    private static final String TAG_TOUCH = "touch";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        TouchSettingsFragment touchSettingsFragment = new TouchSettingsFragment();
+        touchSettingsFragment.setArguments(getIntent().getExtras());
         getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                new RefreshSettingsFragment(), TAG_REFRESH).commit();
+        touchSettingsFragment, TAG_TOUCH).commit();
     }
 
     @Override

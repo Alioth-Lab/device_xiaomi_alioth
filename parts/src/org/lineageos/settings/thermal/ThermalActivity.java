@@ -19,31 +19,26 @@ package org.lineageos.settings.thermal;
 import android.os.Bundle;
 import android.view.MenuItem;
 
-import org.lineageos.settings.utils.FileUtils;
-
 import com.android.settingslib.collapsingtoolbar.CollapsingToolbarBaseActivity;
 import com.android.settingslib.collapsingtoolbar.R;
 
 public class ThermalActivity extends CollapsingToolbarBaseActivity {
 
     private static final String TAG_THERMAL = "thermal";
-    private static final String THERMAL_SCONFIG = "/sys/class/thermal/thermal_message/sconfig";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
-        if (FileUtils.fileExists(THERMAL_SCONFIG)) {
-		getFragmentManager().beginTransaction().replace(R.id.content_frame,
-                    new ThermalSettingsFragment(), TAG_THERMAL).commit();
-        }
+        getFragmentManager().beginTransaction().replace(R.id.content_frame,
+                new ThermalSettingsFragment(), TAG_THERMAL).commit();
     }
-     @Override
-     public boolean onOptionsItemSelected(MenuItem item) {
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
         if (item.getItemId() == android.R.id.home) {
-             onBackPressed();
-             return true;
+            onBackPressed();
+            return true;
         }
-	return false;
+        return false;
     }
 }
