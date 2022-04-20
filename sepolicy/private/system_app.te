@@ -1,3 +1,6 @@
+# Touch Profiles
+allow system_app proc_nvt_feature:file rw_file_perms;
+
 allow system_app sysfs_zram:dir search;
 allow system_app sysfs_zram:file rw_file_perms;
 

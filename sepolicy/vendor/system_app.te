@@ -9,3 +9,6 @@ allow system_app sysfs_kgsl:dir { read getattr search open };
 allow system_app vendor_diag_device:chr_file { read write };
 
 r_dir_file(system_app, vendor_sysfs_battery_supply)
+
+# Touch Profiles
+allow system_app sysfs_thermal:file rw_file_perms;
