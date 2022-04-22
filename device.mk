@@ -413,13 +413,13 @@ PRODUCT_PACKAGES += \
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay \
-    $(LOCAL_PATH)/overlay-pixel
+    $(LOCAL_PATH)/overlay 
 
 PRODUCT_PACKAGES += \
     SettingsProviderM2012K11AC \
     SettingsProviderM2012K11AG \
     SettingsProviderM2012K11AI 
+
 PRODUCT_PACKAGES += \
     WifiOverlayM2012K11AC \
     WifiOverlayM2012K11AG \
