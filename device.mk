@@ -247,10 +247,7 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.3-service.xiaomi_kona
-
-PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
+    android.hardware.biometrics.fingerprint@2.3-service.xiaomi
 
 # Gatekeeper
 PRODUCT_PACKAGES += \
@@ -512,7 +509,6 @@ VULKAN_DEQP_LEVEL := 2020-03-01
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.vulkan.deqp.level-$(VULKAN_DEQP_LEVEL).xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.vulkan.deqp.level.xml
-
 
 # Perf
 PRODUCT_PACKAGES += \
