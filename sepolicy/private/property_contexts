@@ -1,3 +1,11 @@
+# Audio
+audio.soundtrigger.debug.urser_id               u:object_r:vendor_audio_prop:s0
+audio_hal.in_period_size                        u:object_r:vendor_audio_prop:s0
+
+# camera
+ro.camera.res.fmq.size                          u:object_r:vendor_camera_prop:s0
+ro.camera.req.fmq.size                          u:object_r:vendor_camera_prop:s0
+
 # Global
 ro.boot.hwc              u:object_r:exported_default_prop:s0
 ro.build.flavor          u:object_r:exported_default_prop:s0
