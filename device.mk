@@ -63,7 +63,8 @@ PRODUCT_PACKAGES += \
     android.hardware.audio.service \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.soundtrigger@2.3-impl \
-    sound_trigger.primary.kona
+    sound_trigger.primary.kona \
+    vendor.qti.hardware.audiohalext@1.0.vendor
 
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
