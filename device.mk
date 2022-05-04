@@ -549,6 +549,9 @@ PRODUCT_PACKAGES += \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
+# Refresh Rate Settings
+$(call inherit-product, $(LOCAL_PATH)/configs/refreshrate/refreshrate.mk)
+
 # RIL
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
