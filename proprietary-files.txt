@@ -879,8 +879,6 @@ vendor/lib/libqcodec2_utils.so|485acb30246d20a1cfb0c91a9b3e185338d41d17
 vendor/lib/libqcodec2_v4l2codec.so|67057e81477e4b3432997b9d269e3db39c50e421
 
 # Media (Miui Prebuilts)
-vendor/bin/init.qti.media.sh
-vendor/etc/init/init.qti.media.rc
 vendor/lib/libstreamparser.so
 vendor/lib/libvideooptfeature.so
 vendor/lib/libvideoutils.so
