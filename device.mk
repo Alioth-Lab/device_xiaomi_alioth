@@ -41,11 +41,25 @@ PRODUCT_PACKAGES += \
     otapreopt_script
 
 # ART
-# Optimize everything for preopt
-PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := everything
+# Optimize for speed dexopt
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    Phonesky \
+    GoogleServicesFramework
 
-# Don't preopt prebuilts
-DONT_DEXPREOPT_PREBUILTS := true
+# Don't build debug for host or device
+ART_BUILD_TARGET_NDEBUG := true
+ART_BUILD_TARGET_DEBUG := false
+ART_BUILD_HOST_NDEBUG := true
+ART_BUILD_HOST_DEBUG := false
+
+# Dex pre-opt
+WITH_DEXPREOPT := true
+WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := false
+WITH_DEXPREOPT_DEBUG_INFO := false
+
+# Recommend using the non debug dexpreopter
+USE_DEX2OAT_DEBUG := false
 
 # Audio
 TARGET_ENABLE_AUDIO_ULL := true
@@ -167,13 +181,6 @@ PRODUCT_PACKAGES += \
     libsfplugin_ccodec
 
 # Dex
-PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
-PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
-ART_BUILD_TARGET_NDEBUG := true
-ART_BUILD_TARGET_DEBUG := false
-ART_BUILD_HOST_NDEBUG := true
-ART_BUILD_HOST_DEBUG := false
-
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.boot-dex2oat-cpu-set=1,2,3,4,5,6,7 \
     dalvik.vm.boot-dex2oat-threads=7 \
@@ -468,14 +475,6 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/Car
 PRODUCT_PACKAGES += \
     ParanoidDoze
 
-# Package Manager
-PRODUCT_PROPERTY_OVERRIDES += \
-    pm.dexopt.boot=verify \
-    pm.dexopt.first-boot=quicken \
-    pm.dexopt.install=speed-profile \
-    pm.dexopt.bg-dexopt=everything \
-    pm.dexopt.ab-ota=quicken
-
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.audio.low_latency.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.audio.low_latency.xml \
@@ -536,10 +535,6 @@ PRODUCT_COPY_FILES += \
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
-
-# Preopt SystemUI
-PRODUCT_DEXPREOPT_SPEED_APPS += \
-    SystemUI
 
 # Power
 PRODUCT_PACKAGES += \
