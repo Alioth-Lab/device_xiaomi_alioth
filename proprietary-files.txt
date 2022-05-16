@@ -1,4 +1,4 @@
-# Device proprietary files - from alioth MIUI V13.0.2.0.SKHMIXM package, unless pinned
+# Device proprietary files - from alioth MIUI V13.0.4.0.SKHEUXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -721,8 +721,8 @@ vendor/firmware/a650_zap.b02
 vendor/firmware/a650_zap.elf
 vendor/firmware/a650_zap.mdt
 
-# GPU drives - from LA.UM.9.14.r1-19300.01-LAHAINA.QSSI12.0
--vendor/app/com.qualcomm.qti.gpudrivers.lahaina.api30/com.qualcomm.qti.gpudrivers.lahaina.api30.apk;PRESIGNED|57f68fb3484aa59376dc29adc7aa8824c2f4edf3
+# GPU drives
+-vendor/app/com.qualcomm.qti.gpudrivers.kona.api30/com.qualcomm.qti.gpudrivers.kona.api30.apk;PRESIGNED
 
 # Graphics (Vulkan Overlays) - from redfin-user-12-S3B1.220318.003-8372304-release-keys
 -vendor/app/gpu_profiling_vulkan_layer/gpu_profiling_vulkan_layer.apk;PRESIGNED|11125c9e335a764d5d5dcbb23f805513
