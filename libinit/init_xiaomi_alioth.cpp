@@ -9,8 +9,8 @@
 
 #include "vendor_init.h"
 
-#define DESCRIPTION "alioth_global-user 11 RKQ1.200826.002 V12.5.4.0.RKHMIXM release-keys"
-#define FINGERPRINT "google/redfin/redfin:12/SQ1A.220205.002/8010174:user/release-keys"
+#define DESCRIPTION "raven-user 12 SP2A.220505.002 8353555 release-keys"
+#define FINGERPRINT "google/raven/raven:12/SP2A.220505.002/8353555:user/release-keys"
 
 static const variant_info_t aliothin_info = {
     .hwc_value = "INDIA",
