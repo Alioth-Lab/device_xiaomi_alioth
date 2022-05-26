@@ -187,7 +187,9 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack-service.example \
     libdisplayconfig.qti \
     libdisplayconfig.qti.vendor \
+    libdisplayconfig.system.qti \
     libqdMetaData \
+    libqdMetaData.system \
     libsdmcore \
     libsdmutils \
     libtinyxml \
