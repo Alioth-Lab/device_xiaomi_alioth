@@ -163,6 +163,11 @@ PRODUCT_PACKAGES += \
 # Inherit Google Camera
 $(call inherit-product-if-exists, vendor/GoogleCamera/config.mk) 
 
+# Cgroup and task_profiles
+PRODUCT_COPY_FILES += \
+    system/core/libprocessgroup/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
+    system/core/libprocessgroup/profiles/task_profiles_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
+
 # Configstore
 PRODUCT_PACKAGES += \
     disable_configstore
@@ -209,6 +214,7 @@ PRODUCT_PACKAGES += \
     extphonelib.xml \
     extphonelib_product.xml \
     libvulkan \
+    libsmomo.qti \
     memtrack.kona \
     vendor.display.config@1.5 \
     vendor.display.config@1.11.vendor \
@@ -484,7 +490,8 @@ PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+    $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json \
+    $(LOCAL_PATH)/configs/msm_irqbalance.conf:$(TARGET_COPY_OUT_VENDOR)/etc/msm_irqbalance.conf
 
 PRODUCT_SOONG_NAMESPACES += \
     hardware/google/interfaces \
