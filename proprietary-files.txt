@@ -1,4 +1,4 @@
-# Device proprietary files - from alioth MIUI V13.0.4.0.SKHEUXM package, unless pinned
+# Device proprietary files - from alioth MIUI V13.0.6.0.SKHEUXM package, unless pinned
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -1354,6 +1354,7 @@ vendor/etc/sensors/config/sns_geomag_rv.json
 vendor/etc/sensors/config/sns_gyro_cal.json
 vendor/etc/sensors/config/sns_mag_cal.json
 vendor/etc/sensors/config/sns_nonui.json
+vendor/etc/sensors/config/sns_oem13.json
 vendor/etc/sensors/config/sns_pedometer.json
 vendor/etc/sensors/config/sns_rmd.json
 vendor/etc/sensors/config/sns_rotv.json
