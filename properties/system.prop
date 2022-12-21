@@ -50,6 +50,8 @@ debug.sf.enable_hwc_vds=0
 media.wfd.max_resolution=8
 persist.vendor.color.matrix=2
 debug.force_no_blanking=true
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=20
 
 # Fwk detect
 ro.vendor.qti.va_aosp.support=1
