@@ -45,6 +45,7 @@ dalvik.vm.dex2oat64.enabled=true
 debug.hwui.skia_atrace_enabled=false
 
 # Display
+debug.sf.disable_backpressure=1
 debug.gralloc.gfx_ubwc_disable=0
 debug.sf.enable_hwc_vds=0
 media.wfd.max_resolution=8
