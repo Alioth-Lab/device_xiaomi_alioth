@@ -207,6 +207,9 @@ PRODUCT_PACKAGES += \
     XiaomiDoze \
     XiaomiParts
 
+# MIUI camera
+$(call inherit-product-if-exists, vendor/xiaomi/camera/products/miuicamera.mk)
+
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/doze/privapp-permissions-doze.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-doze.xml
 
