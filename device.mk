@@ -376,6 +376,7 @@ PRODUCT_PACKAGES += \
     AliothAperture \
     AliothCarrierConfig \
     AliothFrameworks \
+    AliothKProfiles \
     AliothSettings \
     AliothSystemUI \
     AliothTelephony \
