@@ -63,7 +63,6 @@ ro.vendor.qti.va_aosp.support=1
 # SkiaGL Threaded
 debug.renderengine.backend=skiaglthreaded
 debug.hwui.renderer=skiagl
-renderthread.skia.reduceopstasksplitting=true 
 
 # LMK
 ro.config.low_ram=false
