@@ -35,7 +35,7 @@ PRODUCT_MODEL := M2012K11AG
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="alioth_global-user 13 TKQ1.220829.002 V14.0.4.0.TKHMIXM release-keys"
+    PRIVATE_BUILD_DESC="alioth_eea-user 13 TKQ1.220829.002 V14.0.7.0.TKHEUXM release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "POCO/alioth_global/alioth:13/TKQ1.220829.002/V14.0.4.0.TKHMIXM:user/release-keys"
+BUILD_FINGERPRINT := "POCO/alioth_eea/alioth:13/TKQ1.220829.002/V14.0.7.0.TKHEUXM:user/release-keys"

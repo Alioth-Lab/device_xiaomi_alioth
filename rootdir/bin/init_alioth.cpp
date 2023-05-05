@@ -62,8 +62,8 @@ void load_redmi_k40() {
     property_override("ro.product.vendor.brand", "Redmi");
     property_override("ro.product.vendor.model", "M2012K11AC");
     property_override("vendor.usb.product_string", "Redmi K40");
-    property_override("ro.build.fingerprint", "Redmi/alioth/alioth:13/TKQ1.220829.002/V14.0.5.0.TKHCNXM:user/release-keys");
-    property_override("ro.build.description", "alioth-user 13 TKQ1.220829.002 V14.0.5.0.TKHCNXM release-keys");
+    property_override("ro.build.fingerprint", "Redmi/alioth/alioth:13/TKQ1.220829.002/V14.0.6.0.TKHCNXM:user/release-keys");
+    property_override("ro.build.description", "alioth-user 13 TKQ1.220829.002 V14.0.6.0.TKHCNXM release-keys");
 }
 
 void load_poco_f3() {
@@ -83,8 +83,8 @@ void load_xiaomi_mi11x() {
     property_override("ro.product.vendor.brand", "Mi");
     property_override("ro.product.vendor.model", "M2012K11AI");
     property_override("vendor.usb.product_string", "Mi 11X");
-    property_override("ro.build.fingerprint", "Mi/aliothin/alioth:13/TKQ1.220829.002/V14.0.2.0.TKHINXM:user/release-keys");
-    property_override("ro.build.description", "aliothin-user 13 TKQ1.220829.002 V14.0.2.0.TKHINXM release-keys");
+    property_override("ro.build.fingerprint", "Mi/aliothin/alioth:13/TKQ1.220829.002/V14.0.3.0.TKHINXM:user/release-keys");
+    property_override("ro.build.description", "aliothin-user 13 TKQ1.220829.002 V14.0.3.0.TKHINXM release-keys");
 }
 
 void vendor_load_properties() {
