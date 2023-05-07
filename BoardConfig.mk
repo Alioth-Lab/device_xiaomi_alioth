@@ -98,6 +98,7 @@ DEVICE_MATRIX_FILE += $(DEVICE_PATH)/configs/vintf/compatibility_matrix.xml
 
 # Init
 TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_alioth
+TARGET_RECOVERY_DEVICE_MODULES := libinit_alioth
 
 # Kernel
 BOARD_BOOT_HEADER_VERSION := 3
